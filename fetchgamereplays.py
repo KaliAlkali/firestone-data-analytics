@@ -68,7 +68,8 @@ for id in reviewlist:
     sleepytime = random.randint(0, 3)
 
     time.sleep(sleepytime)
-
-"final check to make sure you got everything"
+    
+    
+###final check to make sure you got everything
 if len(reviewlist) != len(downloadedlist):
     print("Something somewhere has gone wrong and all your games could not be fetched.")
