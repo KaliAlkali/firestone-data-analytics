@@ -13,6 +13,7 @@ data = json.load(matchhistory)
 ###Build the list of replay IDs to review based on deck name. Other attributes recorded in the appdata file may be included.
 reviewlist = []
 
+###Filterlist. Enter attributes here to pull games from characteristics present in the %appdata% file
 for x in data:
     if x["playerDeckName"] == "I%20don't%20want%20to%20be%20evil":
         id = x["reviewId"]
